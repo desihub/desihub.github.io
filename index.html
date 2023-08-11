@@ -1,161 +1,20 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
     <head>
-        <meta charset='utf-8'>
-        <meta http-equiv="X-UA-Compatible" content="chrome=1">
-        <meta name="description" content="Desihub.GitHub.io : DESI Data Systems Organization Web Pages">
-
-        <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
-
-        <title>Desihub.GitHub.io</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>desihub.github.io</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     </head>
 
     <body>
-
-        <!-- HEADER -->
-        <div id="header_wrap" class="outer">
-            <header class="inner">
-              <a id="forkme_banner" href="https://github.com/desihub">View on GitHub</a>
-
-              <h1 id="project_title">Desihub.GitHub.io</h1>
-              <h2 id="project_tagline">DESI Data Systems Organization Web Pages</h2>
-
-            </header>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h1>desihub.github.io</h1>
+                    <p>DESI documentation is currently maintained at <a href="https://data.desi.lbl.gov/doc/">data.desi.lbl.gov</a>.</p>
+                </div>
+            </div>
         </div>
-
-        <!-- MAIN CONTENT -->
-        <div id="main_content_wrap" class="outer">
-            <section id="main_content" class="inner">
-                <h3><a id="data" class="anchor" href="#data" aria-hidden="true"><span class="octicon octicon-link"></span></a>Data</h3>
-                <p>These packages form the data pipeline from target selection through final redshifts.</p>
-                <ul>
-                    <li>Target Selection
-
-                        <ul>
-                            <li><a href="https://github.com/desihub/desitarget"><strong>desitarget</strong></a> : Target selection based upon
-                                <a href="https://legacysurvey.org">Legacy Survey</a> tractor bricks.</li>
-                        </ul>
-
-                    </li>
-
-                    <li>Survey Planning and Operations
-
-                        <ul>
-                            <li><a href="https://github.com/desihub/fiberassign"><strong>fiberassign</strong></a> : Fiber assignment; Python/C++.</li>
-                            <li><a href="https://github.com/desihub/desisurvey"><strong>desisurvey</strong></a> : Survey planning and implementation (<em>e.g.</em>, next field selector).</li>
-                            <li><a href="https://github.com/desihub/desietc"><strong>desietc</strong></a> : Online real-time dynamic exposure time calculator.</li>
-                        </ul>
-
-                    </li>
-
-                    <li>Spectro Pipeline
-
-                        <ul>
-                            <li><a href="https://github.com/desihub/desispec"><strong>desispec</strong></a> : Spectroscopic data processing algorithms and pipeline.</li>
-                            <li><a href="https://github.com/desihub/specex"><strong>specex</strong></a> : Spectral PSF measurements (not DESI-specific).</li>
-                            <li><a href="https://github.com/desihub/specter"><strong>specter</strong></a> : Spectroperfectionism extractions (not DESI-specific).
-
-                                <ul>
-                                    <li>Also used for pixel-level simulations.</li>
-                                </ul>
-
-                            </li>
-
-                            <li><a href="https://github.com/desihub/redrock"><strong>redrock</strong></a> : Classifications and redshift fitting.</li>
-                        </ul>
-
-                    </li>
-                </ul>
-
-                <h3><a id="core" class="anchor" href="#core" aria-hidden="true"><span class="octicon octicon-link"></span></a>Core</h3>
-
-                <p>These are utility packages used by others.</p>
-
-                <ul>
-                    <li><a href="https://github.com/desihub/desiutil"><strong>desiutil</strong></a> : Installation and versioning support, logging, mask bit helper code, etc.</li>
-                    <li><a href="https://github.com/desihub/desimodel"><strong>desimodel</strong></a> : Describes the key DESI hardware and survey parameters; mostly data with a little I/O helper code.</li>
-                    <li><a href="https://github.com/dkirkby/speclite"><strong>speclite</strong></a> : Spectroscopic utility routines that aren't DESI-specific.</li>
-                </ul>
-
-                <h3><a id="simulation" class="anchor" href="#simulation" aria-hidden="true"><span class="octicon octicon-link"></span></a>Simulation</h3>
-
-                <p>These packages are for simulating DESI.</p>
-
-                <ul>
-                    <li><a href="https://github.com/desihub/desisim"><strong>desisim</strong></a> : DESI-specific simulations, including:
-
-                        <ul>
-                            <li>pixsim-desi : Wraps specter for pixel-level simulations.</li>
-                            <li>quickgen: wraps quicksim (soon specsim) to quickly generate pipeline-format output files</li>
-                            <li>quickbrick: (coming soon)</li>
-                            <li>quickcat: (coming soon)</li>
-                        </ul>
-
-                    </li>
-
-                    <li><a href="https://github.com/desihub/specter"><strong>specter</strong></a> : Pixel-level raw data simulations (not DESI-specific).
-
-                        <ul>
-                            <li>Also used for spectroperfectionism extractions.</li>
-                        </ul>
-
-                    </li>
-
-                    <li><a href="https://github.com/desihub/specsim"><strong>specsim</strong></a> : Quick spectrum -&gt; spectrum simulator of throughput, noise, and resolution (not DESI-specific).</li>
-                    <li><a href="https://github.com/desihub/surveysim"><strong>surveysim</strong></a> : Simulating nightly operations, weather, etc.</li>
-
-                </ul>
-
-                <h3><a id="infrastructure" class="anchor" href="#infrastructure" aria-hidden="true"><span class="octicon octicon-link"></span></a>Infrastructure</h3>
-
-                <ul>
-                    <li><a href="https://github.com/desihub/desimodules"><strong>desimodules</strong></a> : Set up the DESI software stack.</li>
-                    <li><a href="https://github.com/desihub/desidatamodel"><strong>desidatamodel</strong></a> : Describe data files used by DESI.</li>
-                    <li><a href="https://github.com/desihub/desitemplate"><strong>desitemplate</strong></a> : Guide for creating new DESI packages.</li>
-                    <li><a href="https://github.com/desihub/desitree"><strong>desitree</strong></a> : Set up environment variables pointing to various parts of the DESI data directory tree.</li>
-                    <li><a href="https://github.com/desihub/desiBackup"><strong>desiBackup</strong></a> : Configure HPSS backups.</li>
-                </ul>
-
-                <h3><a id="analysis" class="anchor" href="#analysis" aria-hidden="true"><span class="octicon octicon-link"></span></a>Analysis</h3>
-
-                <ul>
-                    <li><a href="https://github.com/desihub/imaginglss"><strong>imaginglss</strong></a></li>
-                    <li><a href="https://github.com/desihub/LSS"><strong>LSS</strong></a></li>
-                </ul>
-
-                <h3><a id="external-dependencies" class="anchor" href="#external-dependencies" aria-hidden="true"><span class="octicon octicon-link"></span></a>External Dependencies</h3>
-
-                <ul>
-                    <li>numpy</li>
-                    <li>scipy</li>
-                    <li>astropy</li>
-                    <li>pyyaml</li>
-                    <li>requests</li>
-                    <li>fitsio</li>
-                    <li>Needed for certain features:
-
-                        <ul>
-                            <li>matplotlib / pylab</li>
-                            <li>h5py</li>
-                            <li>psycopg2</li>
-                            <li>sqlalchemy</li>
-                        </ul>
-
-                    </li>
-                </ul>
-
-                <p>The graph below summarizes the relationships between the packages mentioned above:</p>
-                <p><img src="images/packages.png" alt="Graph of DESI Data Systems Packages"></p>
-            </section>
-        </div>
-
-        <!-- FOOTER  -->
-        <div id="footer_wrap" class="outer">
-            <footer class="inner">
-                <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
-            </footer>
-        </div>
-
     </body>
 </html>
