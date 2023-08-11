@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1600"
+   height="1200"
+   viewBox="0 0 1600 1200"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.2 5c3e80d, 2017-08-06"
+   sodipodi:docname="packages.svg">
+  <title
+     id="title4657">DESI Package Dependencies</title>
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.5"
+     inkscape:cx="1281.8999"
+     inkscape:cy="605.97931"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="true"
+     inkscape:window-width="1434"
+     inkscape:window-height="778"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     showguides="false"
+     units="px"
+     inkscape:pagecheckerboard="false">
+    <inkscape:grid
+       type="xygrid"
+       id="grid4655" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>DESI Package Dependencies</dc:title>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>The DESI Collaboration</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:date>2019-04-10</dc:date>
+        <dc:contributor>
+          <cc:Agent>
+            <dc:title>B. A. Weaver</dc:title>
+          </cc:Agent>
+        </dc:contributor>
+        <cc:license
+           rdf:resource="http://creativecommons.org/licenses/by-nc-nd/4.0/" />
+      </cc:Work>
+      <cc:License
+         rdf:about="http://creativecommons.org/licenses/by-nc-nd/4.0/">
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Reproduction" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Distribution" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#Notice" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#Attribution" />
+        <cc:prohibits
+           rdf:resource="http://creativecommons.org/ns#CommercialUse" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,20.500008)">
+    <rect
+       style="fill:#00ffff;fill-opacity:1;stroke:#00ffff;stroke-width:8.44097137;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect3699"
+       width="300"
+       height="1140"
+       x="1290"
+       y="-10.500008" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:42.66666794px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:5;stroke-miterlimit:4;stroke-dasharray:none"
+       x="1438.9584"
+       y="17.696175"
+       id="text4510"><tspan
+         sodipodi:role="line"
+         id="tspan4508"
+         x="1438.9584"
+         y="17.696175"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:42.66666794px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-width:5;stroke-miterlimit:4;stroke-dasharray:none">External</tspan><tspan
+         sodipodi:role="line"
+         x="1438.9584"
+         y="71.02951"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:42.66666794px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-width:5;stroke-miterlimit:4;stroke-dasharray:none"
+         id="tspan4512">Dependencies</tspan></text>
+    <rect
+       style="fill:#ffff00;fill-opacity:1;stroke:#00ffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect4514"
+       width="250"
+       height="158.95061"
+       x="1315"
+       y="80.549377" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot4605"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       transform="scale(0.26458333)"><flowRegion
+         id="flowRegion4607"><rect
+           id="rect4609"
+           width="284"
+           height="137"
+           x="34"
+           y="238.51968" /></flowRegion><flowPara
+         id="flowPara4611"></flowPara></flowRoot>    <rect
+       y="252.75926"
+       x="1315"
+       height="158.95061"
+       width="250"
+       id="rect4662"
+       style="fill:#ffff00;fill-opacity:1;stroke:#00ffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <rect
+       style="fill:#ffff00;fill-opacity:1;stroke:#00ffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect4664"
+       width="250"
+       height="158.95061"
+       x="1315"
+       y="424.96918" />
+    <rect
+       y="597.17908"
+       x="1315"
+       height="158.95061"
+       width="250"
+       id="rect4666"
+       style="fill:#ffff00;fill-opacity:1;stroke:#00ffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <rect
+       style="fill:#ffff00;fill-opacity:1;stroke:#00ffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect4668"
+       width="250"
+       height="158.95061"
+       x="1315"
+       y="769.38892" />
+    <rect
+       y="941.59882"
+       x="1315"
+       height="158.95061"
+       width="250"
+       id="rect4670"
+       style="fill:#ffff00;fill-opacity:1;stroke:#00ffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  </g>
+</svg>
